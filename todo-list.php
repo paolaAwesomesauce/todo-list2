@@ -2,9 +2,16 @@
 <html>
 <head>
 	<title>Simple todo list</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<div id="title">
+		<p>
+			To Do List
+		</p>
+	</div>
 	<div class="wrap">
 		<div class="task-list">
 			<ul>
@@ -28,9 +35,14 @@
 				?>
 			</ul>
 		</div>
-	<form class="add-new-task" autocomplete="off">
-		<input type="text" name="new-task" placeholder= "Add new item..."/>
+	<form class="add-new-task" autocomplete="off" id="box">
+		<input type="text" name="new-task" placeholder= " Add new item..." id="in" />
 	</form>
+	</div>
+	<div id="ending">
+		<p>
+			Finished all your errands? You can go logout <a href="index.php">here</a>.
+		</p>
 	</div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

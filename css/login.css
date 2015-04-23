@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body{
+	font: normal 14px 'Open Sans', Arial, sans-serif;
+	color: #999;
+	background-image: url("http://blog.patternbank.com/wp-content/uploads/2014/09/Jazzberry_Blue_Colour_Blocking_World_Cities_Jerusalem04.jpg");
+	/*background-size: 100%;*/
+	/*background-repeat: no-repeat;*/
+}
+
+.container{
+	width: 900px;
+	height: 600px;
+	margin-top: 40px;
+	background: #f1f1f1;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#L{
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	padding-bottom: 30px;
+}
+
+#username{
+	padding-bottom: 20px;
+}
+
+#password{
+	padding-bottom: 20px;
+}
+
+#box1{
+	border: 1px solid black;
+}
+#box2{
+	border: 1px solid black;
+}
