@@ -64,7 +64,7 @@
 		});
 	}
 
-	$('.delete-button').click(function(){
+	$(".task-list").on("click", ".delete-button", function(data){
 		var current_element = $(this);
 		var task_id = $(this).attr('id');
 

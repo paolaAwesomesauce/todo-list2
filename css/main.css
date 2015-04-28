@@ -14,6 +14,10 @@ body{
 	margin: 0 auto;
 }
 
+.delete-button{
+	margin-left: 200px;
+}
+
 .task-list{
 	width: 88%;
 	min-height: 300px;
@@ -22,16 +26,17 @@ body{
 	margin-top: 40px;
 	padding: 22px 6%; 
 	border: 2px solid black;
+	margin-left: 20px;
 }
 
 #title{
 	height: 55px;
 	padding-top: 35px;
 	color: black;
-	text-align: center;
+	padding-left: 575px;
 	font-size: 50px;
 	font-family: 'Lobster', cursive;
-	margin-bottom: 40px;
+	margin-bottom: 55px;
 }
 
 #box{
@@ -52,4 +57,14 @@ body{
 	font-size: 30px;
 	font-family: 'Lobster', cursive;
 	/*margin-bottom: 40px;*/
+}
+
+/* selected link */
+a{
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: purple;
 }
